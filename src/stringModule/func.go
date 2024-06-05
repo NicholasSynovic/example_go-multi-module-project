@@ -1,4 +1,4 @@
-package stringModule
+package stringmodule
 
 import "fmt"
 
