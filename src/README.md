@@ -59,7 +59,7 @@ in a large team, then adapt the following notes to fit your organization.
 We follow a consistent style throughout this tutorial. In practice, folder,
 modules, file, and function names can be renamed to meet style standards (with
 the exception of capital vs lower case function names; see
-[this section](adding-visible-and-invisible-code)).
+[this section](#adding-visible-and-invisible-code)).
 
 ### Creating A Multi-Module Project
 
