@@ -130,4 +130,6 @@ touch cmd/hello_world/main.go
 
 1. Run `go run` on the `main.go` code
 
-`go run cmd/hello_world/main.go`
+```shell
+go run cmd/hello_world/main.go
+```
