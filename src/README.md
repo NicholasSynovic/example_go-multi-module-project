@@ -13,6 +13,7 @@
     - [Creating Sub-Modules](#creating-sub-modules)
     - [Adding "Visible" and "invisible" Code](#adding-visible-and-invisible-code)
     - [Creating The Executable](#creating-the-executable)
+    - [Running the Executable](#running-the-executable)
 
 ## About
 
@@ -85,11 +86,9 @@ go work init
 mkdir string_module
 mkdir cmd
 mkdir cmd/hello_world
-mkdir cmd/int_gen
 
 cd string_module && go mod init example-project/string_module && cd ..
 cd cmd/hello_world && go mod init example-project/hello_world && cd ../..
-cd cmd/int_gen && go mod init example-project/int_gen && cd ../..
 ```
 
 Here `PROJECT` is `example-project` and each `MODULE` is the name of the
@@ -122,3 +121,9 @@ letter; this code can only be accessed by files within the module.
 touch cmd/hello_world/main.go
 # Implement main function
 ```
+
+### Running the Executable
+
+1. Run `go run` on the `main.go` code
+
+`go run cmd/hello_world/main.go`
