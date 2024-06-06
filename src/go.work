@@ -1,7 +1,6 @@
 go 1.22.3
 
 use (
-	./cmd/helloWorld
-	./intModule
-	./stringModule
+	./cmd/hello_world
+	./string_module
 )
