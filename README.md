@@ -38,8 +38,8 @@ There are several tutorials that explain how to do this, including:
 - [Solomon Esenyi's post on LogRocket](https://blog.logrocket.com/go-workspaces-multi-module-local-development),
   and
 - Sabbir Ahmed's work
-  ([1](https://bysabbir.medium.com/go-workspaces-simplifying-multi-modular-projects-dc1a489302a),
-  [2](https://sabbir.dev/article/go-workspaces-simplifying-multi-modular-projects/)).
+  - [Medium Post](https://bysabbir.medium.com/go-workspaces-simplifying-multi-modular-projects-dc1a489302a)
+  - [sabbir.dev](https://sabbir.dev/article/go-workspaces-simplifying-multi-modular-projects/)
 
 However, a *complete* GitHub project that includes the `go.work` file, as well
 as how to create multiple executables within a single project is not availible
