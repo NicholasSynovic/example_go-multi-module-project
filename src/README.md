@@ -83,14 +83,16 @@ go work init
 1. For each newly created directory (except the top level of the `cmd`
    directory), execute `go mod init PROJECT/MODULE` where `PROJECT` is the name
    of your project and `MODULE` is the name of your module
-
+1. For each newly created directory (except the top level of the `cmd`
+   directory), execute `go work use .`
+   
 ```shell
 mkdir string_module
 mkdir cmd
 mkdir cmd/hello_world
 
-cd string_module && go mod init example-project/string_module && cd ..
-cd cmd/hello_world && go mod init example-project/hello_world && cd ../..
+cd string_module && go mod init example-project/string_module && go work use . && cd ..
+cd cmd/hello_world && go mod init example-project/hello_world && go work use . && cd ../..
 ```
 
 Here `PROJECT` is `example-project` and each `MODULE` is the name of the
