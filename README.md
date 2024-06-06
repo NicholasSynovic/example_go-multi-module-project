@@ -19,7 +19,6 @@ Programmers like to write *DRY* (don't repeat yourself) code. Programming
 languages provide support to enable this, such as:
 
 - `from` and `import` in Python,
-- `#include` in C and C++, and
 - `import` in Go.
 
 These methods allow you to pull code from other *files*, *internal modules*, or
@@ -46,6 +45,10 @@ as how to create multiple executables within a single project is not availible
 to our knowledge. We thus present the first complete GitHub project to demo how
 to leverage `go.work`, how to create multiple executables within this project,
 and the supporting documentation to do so.
+
+The scope of this project is to be a bare bones tutorial. However,
+[George K. Thiruvathukal's wordcount project](https://github.com/gkthiruvathukal/wordcount-sliding-go)
+provides an actual implementation of `Go workspaces`.
 
 ## How to Install
 
