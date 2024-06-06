@@ -1,11 +1,11 @@
-# `Go` Multi-Module Project Example
+# `Go` Multi-Module Project Example Project
 
 > A working `Go` project that builds multiple targets that use multiple internal
 > and external dependencies
 
 ## Table of Contents
 
-- [`Go` Multi-Module Project Example](#go-multi-module-project-example)
+- [`Go` Multi-Module Project Example Project](#go-multi-module-project-example-project)
   - [Table of Contents](#table-of-contents)
   - [About](#about)
   - [How to Install](#how-to-install)
@@ -60,3 +60,5 @@ This code was tested on x86-64 Linux system.
 1. `git clone https://github.com/NicholasSynovic/example_go-multi-module-project`
 
 ## How to Run
+
+Please see [`src/README.md`](src/README.md) for more information.
